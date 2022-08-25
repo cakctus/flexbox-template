@@ -1,0 +1,22 @@
+.widget-categories {
+
+    .widget-categories__list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+
+        a {
+            display: block;
+            padding: 5px 0;
+            transition: padding-left 0.5s;
+            border-radius: 4px;
+
+            &:hover {
+                padding-left: 10px;
+                color: #e12727;
+                background: rgba(0, 0, 0, 0.5);
+                text-shadow: 1px 1px 3px #000000, 1px 1px 10px #000000;
+            }
+        }
+    }
+}

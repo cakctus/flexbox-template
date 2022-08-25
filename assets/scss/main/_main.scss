@@ -1,0 +1,22 @@
+.main {
+    display: block;
+    order: 2;
+
+    @media (min-width: 1200px){
+        flex: 0 0 calc(100% - 220px - 240px);
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    @media (max-width: 1199.8px) and (min-width: 992px){
+        flex: 0 0 calc(100% - 220px);
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    @media (max-width: 991.8px){
+        order: 1;
+    }
+    
+    
+}
