@@ -1,34 +1,40 @@
 .main-breadcrumb {
-    width: 100%;
-    margin-bottom: 30px;
-    padding: 8px 12px;
-    text-align: right;
-    letter-spacing: 2px;
-    border-radius: 7px;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 8px 12px;
 
-    span {
-        position: relative;
-        margin-right: 7px;
-        color: #cccccc;
-    }
+  text-align: right;
+  letter-spacing: 2px;
 
-    a {
-        font-weight: bold;
-    }
+  border-radius: 7px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
 
-    i {
-        color: #cccccc;
-        font-weight: bold;
-    }
+  span {
+    position: relative;
 
-    .fas {
-        font-family: "Font Awesome 5 Free";
-        display: inline-block;
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        line-height: 1;
-    }
-    
+    margin-right: 7px;
+
+    color: #cccccc;
+  }
+
+  a {
+    font-weight: bold;
+  }
+
+  i {
+    color: #cccccc;
+
+    font-weight: bold;
+  }
+
+  .fas {
+    display: inline-block;
+
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    text-rendering: auto;
+  }
 }
