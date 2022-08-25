@@ -5,3 +5,4 @@ temp/
 .idea/
 */scss-comb/
 node_modules
+.vscode/
